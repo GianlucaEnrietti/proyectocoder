@@ -1,0 +1,40 @@
+main {
+    height: 100vh;
+    width: 100%;
+    grid-area: main;
+  }
+  
+  .maintitle {
+    color: rgb(0, 175, 219);
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 4.0rem;
+    text-align: center;
+  }
+  
+  .logo, .redsocial {
+    height: 100px;
+    width: 100px;
+  }
+  
+  .secondarytitle {
+    color: rgb(187, 27, 27);
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 2.0rem;
+    text-align: center;
+  }
+
+  .grid-container {
+    display: grid;
+    height: 100vh;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas:
+        "header header header header"
+        "main main main main"
+        "main main main main"
+        "main main main main"
+        "main main main main"
+        "footer footer footer footer"
+    ;
+}

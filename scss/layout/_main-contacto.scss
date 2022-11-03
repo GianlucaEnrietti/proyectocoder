@@ -1,0 +1,53 @@
+.mc1 {
+    background-color: rgb(0, 92, 0);
+  }
+  
+  .titlecontact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+  }
+  
+  .txtcontact {
+    display: flex;
+    height: 200px;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  form {
+    border-color: black;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 4px;
+    height: 200px;
+    width: 300px;
+    background-color: antiquewhite;
+  }
+  
+  .form input {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .campo {
+    width: 250px;
+  }
+  
+  .boton {
+    margin-top: 20px;
+    background-color: rgb(1, 105, 1);
+    color: black;
+    border-color: rgb(224, 211, 194);
+  
+    &:hover {
+      background-color: rgb(187, 27, 27);
+    }
+  }
+  
+  .textoproducto {
+    color: rgb(0, 0, 0);
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 1.5rem;
+  }

@@ -1,0 +1,16 @@
+.aboutus-grid {
+    display: grid;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(0, 92, 0);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+  .chicayhorno{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 100px;
+    border-radius: 10px;
+    border-color: black;
+  }
+  

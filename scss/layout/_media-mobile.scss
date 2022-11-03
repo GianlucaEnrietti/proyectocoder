@@ -1,0 +1,125 @@
+@media (max-width: 576px) {
+    .grid-container {
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(6, 1fr);
+      grid-template-areas: "header" "main" "main" "main" "main" "footer";
+    }
+  /** HEADER **/
+    nav {
+      height: 5px;
+      width: 100%;
+    }
+  
+    .navbar {
+      list-style: none;
+      display: flex;
+      gap: 8px;
+      font-size: 16px;
+      margin-top: 35px;
+      justify-content: center;
+    }
+  /** MAIN **/
+    main {
+      height: 100vh;
+      width: 100%;
+    }
+  
+/* MAIN INDEX */
+
+.main-index{
+  height: 660px;
+  width: 575px;
+}
+    .banner {
+      background-image: url(../assets/img/banner.jpg);
+      height: 30vh;
+      width: 100%;
+      background-position: center;
+    }
+  
+    .productos {
+      height: 55vh;
+      width: 100%;
+      gap: 8px;
+      img{
+        width: 80px;
+        height: 80px;
+      }
+      div {
+        gap: 10px;
+        margin-top: 10px;
+        height: fit-content;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+      }
+
+    }
+  
+    .secondarytitle {
+      font-size: 1.5rem;
+      writing-mode: vertical-lr;
+    }
+  
+/* MAIN ABOUT US */
+
+    .chicayhorno {
+      margin-left: 10px;
+      width: 200px;
+      height: 200px;
+    }
+  /* MAIN SECRETO */
+.titulo2-secreto{
+  writing-mode: horizontal-tb;
+}
+
+.section-secreto{
+  iframe{
+    margin-top: 100px;
+  }
+}
+
+  /* MAIN PRODUCTOS */
+
+.main-productos{
+  height: 100vh;
+  width: 100%;
+}
+
+  .productos-titulo{
+    display: none;
+  }
+  
+  .articulos {
+    display: flex;
+    flex-wrap: wrap;
+    height: 120px;
+    width: 110px;
+    gap: 10px;
+    img{
+      display: flex;
+      flex-wrap: wrap;
+      width: 120px;
+      height: 110px;
+      gap: 20px;
+    }
+    h2{
+      display: none;
+    }
+    p{
+      display: none;
+    }
+  }
+  
+
+
+/* FOOTER */
+
+    footer {
+      height: 100px;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+    }
+  }
