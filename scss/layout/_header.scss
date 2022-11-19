@@ -1,9 +1,14 @@
+$background-header-principal: rgb(126, 0, 0);
+
+$background-header-secundario: rgba(243, 166, 0, 0.747);
+
+
 header {
     height: 110px;
     width: 100%;
     font-family: 'Inter Tight', sans-serif;
     grid-area: header;
-    background-color: rgb(126, 0, 0);
+    background-color: $background-header-principal;
     display: flex;
     flex-direction: row;
   
